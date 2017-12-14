@@ -1,0 +1,113 @@
+header{
+	background: url(./image/elips.png) no-repeat;
+	background-position: bottom;
+	padding-bottom: 30px;
+	position: relative;
+	z-index: 3;
+}
+.header-meta{
+	padding: 20px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.social>ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 0;
+}
+.social>ul>li{
+	margin: 0 5px;
+	padding: 0;
+	display: inline-block;
+}
+.social>ul>li:first-child{
+	margin-left: 0;
+}
+.social>ul>li:last-child{
+	margin-right: 0;
+}
+.social>ul>li img{
+	width: 37px;
+	height: 37px;
+	display: block;
+}
+.adress{
+padding: 5px 15px;
+}
+.social>ul>li>a:hover{
+	display: block;
+}
+
+.adress>img{
+	font-size: 30px;
+	display: inline-block;
+}
+.adress span{
+	font-size: 14px;
+	color: #2a2a2a;
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: super;
+}
+.inline{
+	display:inline-block;
+}
+/*-----don't work phone. Why?-----*/
+.adress span.phone{
+	font-size: 16px;
+	color: #2a2a2a;
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: super;
+}
+/*------------NAV------------*/
+.navigation>ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 36px;
+	padding: 20px 0;
+}
+.navigation>ul>li{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: inline-block;
+}
+.navigation>ul>li>a{
+	font-size: 14px;
+	color: #2a2a2a;
+	display: block;
+	margin-left: 10px;
+	vertical-align: super;
+	text-transform: uppercase;
+	padding: 15px;
+	position: relative;
+	font-weight: 500;
+}
+
+.navigation ul li a:after{
+content:"";
+width: 5px;
+height: 5px;
+border-radius: 50%;
+background: #007dc3;
+position: absolute;
+right: -3px;
+top: 20px;
+}
+.navigation ul li:nth-child(3) a:after,
+.navigation ul li.logo a:after,
+.navigation ul li:last-child a:after{
+	display: none;
+}
+
+.navigation>ul>li:first-child>a{
+	padding-left: 0;
+}
+.navigation>ul>li:last-child>a{
+	padding-right: 0;
+}
+.navigation>ul>li.logo a{
+	padding: 0 40px;
+}
