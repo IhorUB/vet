@@ -1,0 +1,123 @@
+
+@media(max-width: 1200px) {
+    .phone-center{
+        text-align: center;
+    }
+    .inline{
+       display: block;
+    }
+    .pull-right, .pull-left{
+        float: none!important;
+     }
+     .logo img{
+    max-width: 180px;
+}
+      .navigation>ul>li>a{
+    font-size: 14px;
+    padding: 10px;
+}
+     .navigation>ul>li.logo a{
+    padding: 0 0px;
+}
+      .navigation ul li a:after{
+    content:"";
+    width: 5px;
+    height: 5px;    
+    right: -24px;
+    top: 14px;
+}
+     .navigation>ul>li.logo a{
+    padding: 0 0px;
+}
+.navigation ul li a:after{
+    content:"";
+    width: 5px;
+    height: 5px;    
+    right: 0px;
+    top: 21px;
+    }
+    .btn-Bluen{
+    font-size: 11px;
+}
+.btn-footer{
+    font-size: 11px; 
+}
+}
+@media(max-width: 980px) {
+    .phone-center{
+        float: none;
+        text-align: center;
+    }
+    .inline{
+       display: block;
+    }
+    .pull-right, .pull-left{
+        float: none!important;
+     }
+     .logo img{
+    max-width: 130px;
+}
+      .navigation>ul>li>a{
+    font-size: 12px;
+    padding: 0px;
+}
+     .navigation>ul>li.logo a{
+    padding: 0 0px;
+}
+      .navigation ul li a:after{
+    content:"";
+    width: 5px;
+    height: 5px;    
+    right: -13px;
+    top: 7px;
+}
+     .news{
+    text-align: center;
+}
+     .btn-news{
+      margin-bottom: 2%;
+      margin-top: -2%;
+}
+      .item p{
+    text-align: center;
+}
+}
+@media(max-width: 768px) {
+    .phone-center{
+        text-align: center;
+    }
+    .pull-right, .pull-left{
+        float: none!important;
+    }
+    .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+    .navbar-brand{
+        max-width: 60%;
+        padding: 5px 5px;
+        /*margin-left: calc(50% - 100px);*/
+    }
+    .navbar-brand img{
+         max-width: 168px;
+    }
+    .slideitem .caption h2 {
+    font-size: 24px;
+}
+    .slideitem .caption {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.news{
+    text-align: center;
+}
+
+.btn-news{
+margin-bottom: 2%;
+margin-top: -2%;
+}
+.footer{
+    background-position: center; 
+}
+}
