@@ -1,4 +1,4 @@
-@import "bootstrap.css";
+
 body{
 	font-family: 'Open Sans', sans-serif;
 	}
@@ -6,4 +6,5 @@ body{
 @import "footer";
 @import "./slick/slick.css";
 @import "./slick/slick-theme.css";
-
+@import "responsive.scss";
+@import "animate.scss";

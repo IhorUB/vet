@@ -57,7 +57,7 @@
 -------------------------*/
 /*----------conatainer-social----------*/
 .service{
-	margin: 50px auto;
+	margin: 0px auto;
 	text-align: center; 
 }
 .service img{
@@ -67,9 +67,12 @@
 }
 .service img.hover{
 	display: none;
+	text-decoration: none;
+
 }
 .service a{
 	display: block;
+	text-decoration: none;
 }
 .service a span{
 	display: block;
@@ -85,16 +88,18 @@
 	text-decoration: none;
 }
 .service a:hover{
-text-decoration: none;	
+text-decoration: none ;	
 }
 .sercice a:hover img.main{
 	display: none;
+	text-decoration: none;
 }
 
 /*_____SLIDE 2____________*/
 .nextslide{
 	background: url(./image/background-slider.png) center top no-repeat;
 	padding-top: 48px;
+	margin-top: -48px;
 	
 }
 
@@ -113,6 +118,7 @@ text-decoration: none;
 	text-decoration: none;
 }
 /*---------NEWS---------*/
+
 .news{
 	padding: 0px 0px;
 	padding-left: 0px;
@@ -132,8 +138,13 @@ text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 19px;
 	color: black;
+	text-decoration: none;
+}
+.news a:hover{
+	text-decoration: none;
+	opacity: 0.8;
 }
 .item p{
 	text-align: justify;
@@ -144,7 +155,7 @@ text-decoration: none;
 	background: #fff;
 	border-radius: 10px;
 	color: blue;
-	font-size: 16px;
+	font-size: 14px;
 	text-decoration: none;
 	opacity: .8;
 	border: 1px solid #007dc3;
@@ -154,35 +165,49 @@ text-decoration: none;
 	background: #fff;
 	border-radius: 10px;
 	color: blue;
-	font-size: 16px;
+	font-size: 14px;
 	text-decoration: none;
 	opacity: .8;
 }
+
+    /*contacts, repeat, like header*/
+   .footer-menu{
+	padding: 20px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+/*contacts, repeat, like header*/
 /*--------END---------*/
-.end{
+.footer{
 	background: url(./image/background-slider.png);
-	position: relative;
+	background-size: cover;
 }
 
+
+.agency{
+	text-align: center;
+}
+.button-click{
+	margin: 1% auto;
+
+}
+.button-click>a:hover{
+   text-decoration: none;
+}
 
 .btn-Bluen{
 	background: #007dc3;
 	border-radius: 16px;
 	color: #fff;
-	font-size: 16px;
-	text-decoration: none;
+	font-size: 12px;
 	opacity: .8;
 	border: 1px solid #007dc3;
 	padding: 3px 6px;
-	margin-left: 50px;
-	margin-right: 5px;
 }
 .btn-footer{
 	color: #fff;
 	background: #ffb400;
 	border-radius: 16px;
-	font-size: 16px; 
+	font-size: 12px; 
 	padding: 3px 6px;
-	text-decoration: none;
 	margin: 0px 5px;
 }
